@@ -13,6 +13,8 @@
 		BE624CAC2739F78300B6ED72 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE624CAB2739F78300B6ED72 /* Preview Assets.xcassets */; };
 		BE624CAE2739F78300B6ED72 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE624CAD2739F78300B6ED72 /* Persistence.swift */; };
 		BE624CB12739F78300B6ED72 /* Firebase_Authentication.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BE624CAF2739F78300B6ED72 /* Firebase_Authentication.xcdatamodeld */; };
+		BE624CBA273B4B8F00B6ED72 /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE624CB8273B4B8F00B6ED72 /* VisualEffectBlur.swift */; };
+		BE624CBB273B4B8F00B6ED72 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE624CB9273B4B8F00B6ED72 /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		BE624CAB2739F78300B6ED72 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BE624CAD2739F78300B6ED72 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		BE624CB02739F78300B6ED72 /* Firebase_Authentication.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Firebase_Authentication.xcdatamodel; sourceTree = "<group>"; };
+		BE624CB8273B4B8F00B6ED72 /* VisualEffectBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualEffectBlur.swift; sourceTree = "<group>"; };
+		BE624CB9273B4B8F00B6ED72 /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,7 @@
 		BE624CA32739F78200B6ED72 /* Firebase Authentication */ = {
 			isa = PBXGroup;
 			children = (
+				BE624CB7273B4B8F00B6ED72 /* Helpers */,
 				BE624CA42739F78200B6ED72 /* Firebase_AuthenticationApp.swift */,
 				BE624CA62739F78200B6ED72 /* ContentView.swift */,
 				BE624CA82739F78300B6ED72 /* Assets.xcassets */,
@@ -71,6 +76,15 @@
 				BE624CAB2739F78300B6ED72 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BE624CB7273B4B8F00B6ED72 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				BE624CB8273B4B8F00B6ED72 /* VisualEffectBlur.swift */,
+				BE624CB9273B4B8F00B6ED72 /* ImagePicker.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,8 +157,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE624CBA273B4B8F00B6ED72 /* VisualEffectBlur.swift in Sources */,
 				BE624CB12739F78300B6ED72 /* Firebase_Authentication.xcdatamodeld in Sources */,
 				BE624CAE2739F78300B6ED72 /* Persistence.swift in Sources */,
+				BE624CBB273B4B8F00B6ED72 /* ImagePicker.swift in Sources */,
 				BE624CA72739F78200B6ED72 /* ContentView.swift in Sources */,
 				BE624CA52739F78200B6ED72 /* Firebase_AuthenticationApp.swift in Sources */,
 			);
